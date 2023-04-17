@@ -48,3 +48,7 @@ a) 每笔付款都有一行加上 b) 错过的付款各有一行。
 ### 8. **HomeCredit_columns_description.csv**
 
 此文件包含各种数据文件中列的说明。
+
+## 数据评价
+
+通过提交对test集的预测结果submission.csv到kaggle可以获得ROC-curve分数
