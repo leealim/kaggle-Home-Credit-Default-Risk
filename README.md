@@ -7,7 +7,43 @@ github主页：https://github.com/leealim/kaggle-Home-Credit-Default-Risk
 
 ---
 
+## 启动方法
+
+1. 补充数据集  
+    - 数据集存放路径：".\data\home-credit-default-risk\\~~~~~.csv"
+2. pip install -r requriements.txt
+3. 依次执行在vscode中的jupyter中执行：  
+    - data-process-missing-value-handling.ipynb  
+    - data-process-outlier-handling.ipynb  
+    - feature-project-feature-increase.ipynb  
+    - feature-project-choosing.ipynb  
+    - model-fit-traditional-methods.ipynb()  
+    - model-fit-deeplearning-methods.ipynb(可选。需要安装torch)  
+    - 最终结果输出在result文件夹下(包括模型权重和TARGET列值)
+4. 执行main.py获得后台集成了模型，图形化窗口界面(未完成)
+
+可选，创建虚拟环境，执行setup_env.bat  
+参考代码：
+
+```CMD
+@激活环境
+cd .\hcdrvenv\Scripts\ 
+.\activate
+cd ..
+cd ..
+
+pip install -r requriements.txt
+
+@关闭环境
+cd .\hcdrvenv\Scripts\ 
+.\deactivate
+cd ..
+cd ..
+```
+
 ## 数据集描述
+
+### 
 
 ### 1. **application_{train|test}.csv**
 
