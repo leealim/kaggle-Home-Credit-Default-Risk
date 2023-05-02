@@ -1,0 +1,40 @@
+Row,Example,Type,Index,Description
+NAME_CONTRACT_TYPE,Cash loans,object,2,Identification if loan is cash or revolving
+CODE_GENDER,M,object,3,Gender of the client
+FLAG_OWN_CAR,N,object,4,Flag if the client owns a car
+FLAG_OWN_REALTY,Y,object,5,Flag if client owns a house or flat
+CNT_CHILDREN,0,int64,6,Number of children the client has
+AMT_INCOME_TOTAL,202500.0,float64,7,Income of the client
+AMT_CREDIT,406597.5,float64,8,Credit amount of the loan
+AMT_ANNUITY,24700.5,float64,9,Loan annuity
+AMT_GOODS_PRICE,351000.0,float64,10,For consumer loans it is the price of the goods for which the loan is given
+NAME_TYPE_SUITE,Unaccompanied,object,11,Who was accompanying client when he was applying for the loan
+NAME_INCOME_TYPE,Working,object,12,"Clients income type (businessman, working, maternity leave,…)"
+NAME_EDUCATION_TYPE,Secondary / secondary special,object,13,Level of highest education the client achieved
+NAME_FAMILY_STATUS,Single / not married,object,14,Family status of the client
+NAME_HOUSING_TYPE,House / apartment,object,15,"What is the housing situation of the client (renting, living with parents, ...)"
+DAYS_BIRTH,-9461,int64,17,Client's age in days at the time of application
+DAYS_EMPLOYED,-637,int64,18,How many days before the application the person started current employment
+DAYS_REGISTRATION,-3648.0,float64,19,How many days before the application did client change his registration
+DAYS_ID_PUBLISH,-2120,int64,20,How many days before the application did client change the identity document with which he applied for the loan
+OWN_CAR_AGE,,float64,21,Age of client's car
+FLAG_MOBIL,1,int64,22,"Did client provide mobile phone (1=YES, 0=NO)"
+FLAG_EMP_PHONE,1,int64,23,"Did client provide work phone (1=YES, 0=NO)"
+FLAG_WORK_PHONE,0,int64,24,"Did client provide home phone (1=YES, 0=NO)"
+FLAG_CONT_MOBILE,1,int64,25,"Was mobile phone reachable (1=YES, 0=NO)"
+FLAG_PHONE,1,int64,26,"Did client provide home phone (1=YES, 0=NO)"
+FLAG_EMAIL,0,int64,27,"Did client provide email (1=YES, 0=NO)"
+OCCUPATION_TYPE,Laborers,object,28,What kind of occupation does the client have
+CNT_FAM_MEMBERS,1.0,float64,29,How many family members does client have
+REGION_RATING_CLIENT,2,int64,30,"Our rating of the region where client lives (1,2,3)"
+REGION_RATING_CLIENT_W_CITY,2,int64,31,"Our rating of the region where client lives with taking city into account (1,2,3)"
+WEEKDAY_APPR_PROCESS_START,WEDNESDAY,object,32,On which day of the week did the client apply for the loan
+HOUR_APPR_PROCESS_START,10,int64,33,Approximately at what hour did the client apply for the loan
+REG_REGION_NOT_LIVE_REGION,0,int64,34,"Flag if client's permanent address does not match contact address (1=different, 0=same, at region level)"
+REG_REGION_NOT_WORK_REGION,0,int64,35,"Flag if client's permanent address does not match work address (1=different, 0=same, at region level)"
+LIVE_REGION_NOT_WORK_REGION,0,int64,36,"Flag if client's contact address does not match work address (1=different, 0=same, at region level)"
+REG_CITY_NOT_LIVE_CITY,0,int64,37,"Flag if client's permanent address does not match contact address (1=different, 0=same, at city level)"
+REG_CITY_NOT_WORK_CITY,0,int64,38,"Flag if client's permanent address does not match work address (1=different, 0=same, at city level)"
+LIVE_CITY_NOT_WORK_CITY,0,int64,39,"Flag if client's contact address does not match work address (1=different, 0=same, at city level)"
+ORGANIZATION_TYPE,Business Entity Type 3,object,40,Type of organization where client works
+DAYS_LAST_PHONE_CHANGE,-1134.0,float64,95,How many days before application did client change phone
