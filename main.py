@@ -5,7 +5,7 @@ import pandas as pd
 class MainWindow:
     def __init__(self, mw) -> None:
         self.mainWindow = mw
-        self.mainWindow.title("Credit Rist Evalution")
+        self.mainWindow.title("Credit Risk Evalution")
         self.mainWindow.geometry("800x500")
         self.labels_entrys = dict()
 
